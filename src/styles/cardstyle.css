@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+/* .card{
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    background: #61dafb;
+} */
+.h1{
+    cursor: pointer;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #292826;
+    -webkit-text-fill-color: #fff;
+    color: #fff;
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Courier New', Courier, monospace;
+}

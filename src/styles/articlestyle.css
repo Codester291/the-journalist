@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+.articleCover {
+  padding: 2em 2em 2em 2em;
+  background: #555;
+  background:  url("https://cdn.dribbble.com/users/103909/screenshots/7053462/media/8431940ac08e5fe03fa567c5787ac1ec.png");
+  background-size: cover;
+  background-position: left;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.article {
+  box-sizing: border-box;
+  background: #333;
+  border-radius: 20px;
+  box-shadow: 0px 13px 34px rgba(0, 0, 0, 0.3);
+  padding: 3em 3em 3em 3em;
+  display: inline-block;
+  height: 1000px;
+  width: 800px;
+  overflow: auto;
+  /* position: sticky;
+  top: 0; */
+  /* justify-content: space-between; */
+}
+
+.smallCards {
+  /* background-color: #f9d342; */
+  background: #f1f1f1;
+  border-radius: 12px;
+  box-shadow: 0px 13px 34px rgba(0, 0, 0, 0.6);
+  padding: 3em 3em 3em 3em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.main-content-cover {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.small-circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: #555;
+  box-shadow: 0px 13px 34px rgba(0, 0, 0, 0.6);
+}
+.hr {
+  border: 8px #333 solid;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #61dafb; */
+  background: #fff;
+}
+p {
+  text-align: left;
+}
+.topStories {
+  color: #fff;
+}
+.postStyle {
+  font-size: 20px;
+}
+.postheader {
+  text-align: left !important;
+  color: #282c34 !important;
+  font-family: 'Merriweather', serif;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+.readmore {
+  cursor: pointer;
+}
+.readmore:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292826;
+  -webkit-text-fill-color: #fff;
+}
+@media (width: cal(200px - 10vmin)){
+
+}

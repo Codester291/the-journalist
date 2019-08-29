@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+.cats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nth-cats {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.masterDiv {
+  padding: 8em 8em 8em 8em;
+}
+.catHeaders {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  /* font-family: "Courier New", Courier, monospace; */
+}
+.small-circ {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: #555;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-self: auto;
+  align-items: center;
+  transition: 0.5s;
+}
+.small-circ:hover {
+  box-shadow: 0px 13px 34px rgba(0, 0, 0, 0.6);
+  background: #ba68c8;
+}
+MaterialIcon {
+  display: inline-block;
+  position: relative;
+  margin-top: 2%;
+}
